@@ -1,5 +1,5 @@
 ## 为什么
-Toney是个测试，太多的bug需要他来截图，其中有些bug是我写的，所以他来找我，然后我给他写这个工具。
+Toney是个测试，太多的bug需要他来截图，其中有些bug是我写的，所以他来找我，然后给他写了这个工具，让他快乐的记录bug的一瞬间。
 
 ## 集成 [![Release](https://jitpack.io/v/VincentTung/tonyrecorder.svg)](https://jitpack.io/#whataa/pandora)
 
@@ -16,13 +16,18 @@ allprojects {
 ```
 dependencies {
 	        debugImplementation 'com.github.VincentTung:tonyrecorder:0.0.1'
-	}
 }
 ```
 
 ## 如何使用
 
  通过晃动手机,调出悬浮操作面板，所以需要「悬浮窗」权限，如果没有开启自动打开设置提示进行开启。
+ 
+ 生成图片位置 /Android/data/packagename/cache/picture/
+ 
+ 生成mp4位置  /Android/data/packagename/cache/video/
+ 
+  ![](https://github.com/VincentTung/tonyrecorder/raw/master/gif/show.gif)
  
 ## 致谢
  
