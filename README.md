@@ -1,7 +1,10 @@
 ## 为什么
 
 ![](https://github.com/VincentTung/tonyrecorder/raw/master/gif/cry.png)
+
 Toney是个测试，太多的bug需要他来截图，其中有些bug是我写的，所以他来找我，然后给他写了这个工具，让他快乐的记录bug的一瞬间。
+
+tonnyrecorder提供截屏和录屏功能，方便QA在测试的过程中使用（>= 5.0）。
 
 ## 集成 [![Release](https://jitpack.io/v/VincentTung/tonyrecorder.svg)](https://jitpack.io/#whataa/pandora)
 
