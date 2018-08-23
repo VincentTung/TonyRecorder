@@ -20,7 +20,9 @@ allprojects {
 2. 在app的build.gradle中添加如下代码：
 ```
 dependencies {
-	        debugImplementation 'com.github.VincentTung:tonyrecorder:x.y.z'
+	        debugImplementation 'com.github.VincentTung:tonyrecorder:x.y.z'{
+                		exclude group: 'com.android.support'
+		}
 }
 ```
 
