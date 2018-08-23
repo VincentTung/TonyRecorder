@@ -6,7 +6,7 @@ Toney是个测试，太多的bug需要他来截图，其中有些bug是我写的
 
 tonnyrecorder提供截屏和录屏功能，方便QA在测试的过程中使用（>= 5.0）。
 
-## 集成 [![Release](https://jitpack.io/v/VincentTung/tonyrecorder.svg)](https://jitpack.io/#whataa/pandora)
+## 集成 [![Release](https://jitpack.io/v/VincentTung/tonyrecorder.svg)]()
 
 1. 在工程的build.gradle中加入Jitpack仓库：
 ```
