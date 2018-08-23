@@ -6,7 +6,7 @@ buildscript {
             'COMPILE_SDK'    : 26,
             'MIN_SDK'        : 15,
             'TARGET_SDK'     : 26,
-            'SUPPORT_LIB'    : '26.1.0',
+            'SUPPORT_LIB'    : '27.1.1',
     ]
     repositories {
         google()
