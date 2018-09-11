@@ -34,6 +34,7 @@ import static com.vincent.tonyrecorder.utils.Constants.TYPE_CAPTURE_PICTURE;
 import static com.vincent.tonyrecorder.utils.Constants.TYPE_SHARE_VIDEO;
 
 /**
+ *
  * @author vincent
  */
 public class BlankActivity extends Activity {
