@@ -1,9 +1,12 @@
 ## 为什么
 
 ![](https://github.com/VincentTung/tonyrecorder/raw/master/gif/cry.png)
+
 Toney是个测试，太多的bug需要他来截图，其中有些bug是我写的，所以他来找我，然后给他写了这个工具，让他快乐的记录bug的一瞬间。
 
-## 集成 [![Release](https://jitpack.io/v/VincentTung/tonyrecorder.svg)](https://jitpack.io/#whataa/pandora)
+tonnyrecorder提供截屏和录屏功能，方便QA在测试的过程中使用（>= 5.0）。
+
+## 集成 [![Release](https://jitpack.io/v/VincentTung/tonyrecorder.svg)]()
 
 1. 在工程的build.gradle中加入Jitpack仓库：
 ```
@@ -17,7 +20,10 @@ allprojects {
 2. 在app的build.gradle中添加如下代码：
 ```
 dependencies {
-	        debugImplementation 'com.github.VincentTung:tonyrecorder:0.0.1'
+	        debugImplementation 'com.github.VincentTung:tonyrecorder:x.y.z'）{
+				//出现support包冲突请添加如下
+                		exclude group: 'com.android.support'
+		}
 }
 ```
 
@@ -38,3 +44,4 @@ dependencies {
  录屏的功能使用了
  [ScreenRecorder](https://github.com/yrom/ScreenRecorder)；
  
+    

@@ -6,8 +6,6 @@ android {
     defaultConfig {
         minSdkVersion versions.MIN_SDK
         targetSdkVersion versions.TARGET_SDK
-        versionCode 1
-        versionName "1.0"
 
     }
 
